@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(238, 238, 238) ;
+    font-family: "Roboto", sans-serif;
+}
+.post {
+    margin: auto;
+    border-radius: 10px;
+    background-color: white;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.post-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    align-self: center;
+    font-size: 2em;
+    margin-left: 13px;
+    margin-right: 13px;
+ 
+ }
+.text {
+    align-self: center;
+    font-size: 0.7em;
+    line-height: 0.2em;
+    margin-right: auto;
+ }
+
+.menu {
+    margin: 8px 13px 8px 8px;
+    align-self: center;
+    font-size: 1.8em;
+}
+img {
+    max-width: 100%;
+    margin: 0;
+
+}
+.post-body {
+    padding: 9px;
+}
+.post-body .icons {
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.save {
+    margin-left: auto;
+}
+.like {
+    margin: 0 8px 0 0
+}
+.comment {
+    margin: 0 8px 0 0
+}
