@@ -26,7 +26,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 10px 0;
 }
 
 .icon {
@@ -57,6 +57,7 @@ body {
     width: 100%;
     height: auto;
     display: block;
+}
 
 .post-body {
     padding: 9px;
