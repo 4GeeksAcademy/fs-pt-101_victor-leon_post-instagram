@@ -1,4 +1,4 @@
-/* Global: asegurar que el padding y margin se incluyan en el width y height */
+
 * {
     box-sizing: border-box;
 }
@@ -18,15 +18,15 @@ body {
     max-width: 500px;
     display: flex;
     flex-direction: column;
-    overflow: hidden; /* Evita que se desborde el contenido en pantallas pequeñas */
+    overflow: hidden;
 }
 
 .post-header {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center; /* Alinea verticalmente todos los elementos */
-    padding: 10px; /* Espaciado interno para mejorar la visualización */
+    align-items: center;
+    padding: 10px;
 }
 
 .icon {
@@ -35,9 +35,9 @@ body {
 }
 
 .text {
-    font-size: 0.7em; /* Se incrementa ligeramente para mejorar la legibilidad */
+    font-size: 0.7em;
     margin: 0;
-    flex-grow: 1; /* Permite que el texto se expanda y ocupe el espacio disponible */
+    flex-grow: 1;
 }
 
 .text p {
@@ -55,9 +55,8 @@ body {
 
 .post-img img {
     width: 100%;
-    height: auto; /* Mantiene la proporción de la imagen */
-    display: block; /* Elimina espacios en blanco por defecto */
-}
+    height: auto;
+    display: block;
 
 .post-body {
     padding: 9px;
